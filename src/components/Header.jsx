@@ -30,12 +30,12 @@ const Header = ({ cart, onUpdateCartItemQuantity }) => {
                 <div id='main-title'>
                     <img src='logo.png' alt='Elegant model' />
                     <h1>Elegant Context</h1>
-                    <p>
-                        <button onClick={handleOpenCartClick}>
-                            Cart ({cartQuantity})
-                        </button>
-                    </p>
                 </div>
+                <p>
+                    <button onClick={handleOpenCartClick}>
+                        Cart ({cartQuantity})
+                    </button>
+                </p>
             </header>
         </>
     );
